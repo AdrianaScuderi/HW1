@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 65vh;
+    background-color: #efdfdf;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+   
+header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background-color: #efdfdf;
+}
+
+
+#logo img {
+    width: 100px;
+    height: 10%; 
+    padding: 0 5%;   
+}
+
+#logo {
+    width: 35%;
+    font-family: 'Bad Script', cursive;
+    color: #334D5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo h1 {
+    font-size: 2.5em;
+    line-height: 30px;
+    margin: 0;
+    color: #334D5C;
+    font-weight: bold;
+    text-align: center;
+}
+
+#logo h3 {
+    font-weight: lighter;
+    font-size: 2em;
+    margin: 0;
+}
+
+#links {
+    width: 57%;
+}
+
+#links a {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 100%;
+    margin: 15px;
+}
+
+#menu {
+    display: none;
+}
+
+#menu div {
+    width: 25px;
+    height: 3px;
+    background-color: #334D5C;
+    margin: 5px 0;
+    position: relative;
+}
+
+a {
+    cursor: pointer;
+}
+    
+a.button {
+    padding: 10px 15px;
+    background-color: #E28D8D;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #EFDFDF;
+    border-radius: 50px;
+}
+
+a, a.button:link {
+    text-decoration: none;
+    color:#334D5C;
+}
+
+.button:visited {
+    text-decoration: none;
+    color: white;
+}
+    
+a.button:hover {
+    background-color: #334D5C;
+}
+
+#incipitdipendenti {
+    margin-top: 60px;
+}
+
+#incipitdipendenti h1 {
+    font-size: 40px;
+    text-align: center;
+    color:#334D5C;
+}
+
+.dipendente {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.dip {
+    width: 200px;
+    height: auto;
+    padding-inline: 3%;
+}
+
+.dip h1, .dip p {
+    font-family: 'Ubuntu Mono', monospace;
+    text-align: center;
+    color: #334D5C;
+}
+
+.dip img {
+    width: 100%;
+    box-shadow: 0 14px 23px -6px;
+}
+
+
+
+footer {
+    background-color: #334D5C;
+    color: #EFDFDF;
+    padding: 75px;
+    text-align: center;
+}

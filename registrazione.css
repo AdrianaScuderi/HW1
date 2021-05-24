@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efdfdf;
+}
+
+#logo img {
+    width: 80px; 
+    padding: 1% 5%;   
+}
+
+#logo {
+    width: 35%;
+    font-family: 'Bad Script', cursive;
+    color: #334D5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #334D5C;
+    font-weight: bold;
+}
+
+#logo h3 {
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#titolo {
+    display: inline-flex;
+}
+
+#links {
+    width: 57%;
+}
+
+#links a {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 100%;
+    margin: 15px;
+}
+
+#menu {
+    display: none;
+}
+
+#menu div {
+    width: 25px;
+    height: 3px;
+    background-color: #334D5C;
+    margin: 5px 0;
+    position: relative;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color:#334D5C;
+}
+
+main {
+    width: 960px;
+    display: flex;
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.30);
+    margin: auto;
+}
+
+main .main_left {
+    width: 50%;
+    background-color: #fee9d6;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+}
+
+main .main_right {
+    width: 50%;
+    background: url(images/iscrizione.jpg) center;
+    background-size: cover;
+    text-align: center;
+    min-height: 500px;
+}
+
+main h1 {
+    font-size: 40px;
+    margin: 0; 
+    color: #334D5C;
+}
+
+form {
+    margin-bottom: 50px;
+}
+
+form span { 
+    font-size: 10px;
+    transition: opacity 0.3s ease;
+} 
+
+label {
+    font-size: 15px;
+}
+.name, .surname, .email, .password, .confirm_password, .allow, .submit {
+    margin-bottom: 10px;
+}
+
+.allow {
+    display: inline-flex;
+}
+
+input[type=submit] {
+    background: #efdfdf;
+    border-style: double;
+    border-radius: 30px;
+    padding: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 14px;
+    color: #334D5C;
+}
+
+input[type=submit]:hover {
+    background: #E28D8D;
+    color: #EFDFDF;
+}
+
+.errorj span {
+    font-size: 11px;
+    color: #fa1c2c;
+}
+
+footer {
+    background-color: #334D5C;
+    color: #EFDFDF;
+    padding: 15px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 12px;
+}
